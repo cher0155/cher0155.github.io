@@ -14,3 +14,13 @@ h1.site-title {
     box-shadow: 2px 1px;
 }
 
+nav :link {
+    list-style-type:none;
+    text-decoration:none;
+    background-color: beige;
+    border: solid ;
+}
+
+nav :hover {
+    background-color:cyan
+}
