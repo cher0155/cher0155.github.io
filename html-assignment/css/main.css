@@ -10,5 +10,7 @@ h1.site-title {
     color:rgb(2, 0, 64)
 }
 
-
+#my-image {
+    box-shadow: 2px 1px;
+}
 
