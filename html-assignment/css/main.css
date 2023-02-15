@@ -17,7 +17,7 @@ h1.site-title {
 nav :link {
     list-style-type:none;
     text-decoration:none;
-    background-color: beige;
+    background-color: rgb(141, 255, 244);
     border: solid ;
 }
 
