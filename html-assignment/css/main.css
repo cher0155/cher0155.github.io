@@ -1,0 +1,16 @@
+body {
+  font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(135, 243, 255);
+}
+
+h1.site-title {
+    color:rgb(2, 0, 64)
+}
+
+#my-image {
+    box-shadow: 2px 1px;
+}
+
