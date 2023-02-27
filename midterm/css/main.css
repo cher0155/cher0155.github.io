@@ -1,0 +1,42 @@
+
+
+html {
+    background-color: rgb(169, 212, 207);
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+body {
+    background-color:rgb(212, 232, 231);
+    margin: 100px auto;
+    width: 1000px;
+}
+
+header {
+    margin: 100px auto;
+    width: 1000px;
+    color:white;
+
+}
+
+.links ul li {
+    margin: 100px auto;
+    width: 1000px;
+    padding: 0%;
+    text-align:center;
+    border-right: solid;
+    list-style-type: none;
+}
+
+.contact {
+    border:solid
+}
+
+.send {
+    border:solid
+}
+
+footer {
+
+}
