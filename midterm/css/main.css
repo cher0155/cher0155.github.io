@@ -2,14 +2,13 @@
 
 html {
     background-color: rgb(169, 212, 207);
-    box-sizing: border-box;
     font-family:sans-serif;
 }
 
 
 body {
     background-color:rgb(212, 232, 231);
-    margin: 100px auto;
+    margin: auto;
     width: 1000px;
 }
 
@@ -17,14 +16,26 @@ header {
     margin: 100px auto;
     width: 1000px;
     color:white;
+    text-align: center;
+    display: inline;
 
 }
 
-.links ul li {
-    margin: 100px auto;
+.starfish {
+    width: 250px;
+    height: 250px;
+
+}
+
+.wide-image {
     width: 1000px;
-    padding: 0%;
-    text-align:center;
+}
+  
+.links ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-align: center;
     border-right: solid;
     list-style-type: none;
 }
@@ -34,9 +45,11 @@ header {
 }
 
 .send {
-    border:solid
+    border:solid;
+    width: 41px;
+    height: 31px;
 }
 
 footer {
-
+text-align: right;
 }
