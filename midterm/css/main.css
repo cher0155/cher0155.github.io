@@ -12,6 +12,10 @@ body {
     width: 1000px;
 }
 
+header h1 {
+    bottom: 30px;
+}
+
 header {
     margin: 100px auto;
     width: 1000px;
@@ -30,6 +34,7 @@ header {
 .wide-image {
     width: 1000px;
 }
+
   
 .links ul li {
     margin: 0;
@@ -46,10 +51,12 @@ header {
 
 .send {
     border:solid;
-    width: 41px;
+    width: 46px;
     height: 31px;
+    text-align: center;
 }
 
 footer {
 text-align: right;
 }
+
