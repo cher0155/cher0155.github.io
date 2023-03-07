@@ -5,6 +5,38 @@ html {
     font-family:sans-serif;
 }
 
+header h1 {
+    bottom: 30px;
+}
+
+header {
+    margin: 100px auto;
+    width:100%;
+  height: auto;
+    color:white;
+    text-align: center;
+    display: block;
+    list-style-type: none;
+
+}
+
+nav {
+    margin: 0;
+    padding: 10;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  display: flex;
+}
+
+.title {
+    position:relative;
+    bottom: 50%;
+}
+
+.wide-image {
+    width: 1000px;
+}
 
 body {
     background-color:rgb(212, 232, 231);
@@ -12,27 +44,14 @@ body {
     width: 1000px;
 }
 
-header h1 {
-    bottom: 30px;
-}
-
-header {
-    margin: 100px auto;
+.container {
     width: 1000px;
-    color:white;
-    text-align: center;
-    display: inline;
-
 }
 
-.starfish {
+.container img {
     width: 250px;
     height: 250px;
-
-}
-
-.wide-image {
-    width: 1000px;
+    float: left;
 }
 
   
