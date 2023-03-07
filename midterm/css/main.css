@@ -28,11 +28,15 @@ header {
 
 nav ul li {
     margin: 0;
-    padding-left: 130px;
+    padding-top:0px;
+    padding-left: 120px;
     padding-right: 100px;
-  text-align: center;
-  list-style-type: none;
   display: inline;
+  font-size: 20px;
+}
+
+nav :link{
+    text-decoration: none;
 }
 
 .story {
