@@ -6,7 +6,13 @@ html {
 }
 
 header h1 {
-    bottom: 30px;
+    padding-left:350px;
+    padding-top:60px;
+    top: 200px;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-weight:50;
 }
 
 header {
@@ -20,19 +26,20 @@ header {
 
 }
 
-nav {
+nav ul li {
     margin: 0;
-    padding: 10;
-  overflow: hidden;
+    padding-left: 130px;
+    padding-right: 100px;
   text-align: center;
-  list-style: none;
-  display: flex;
+  list-style-type: none;
+  display: inline;
 }
 
-.title {
-    position:relative;
-    bottom: 50%;
+.story {
+    border-right:solid;
+    border-left:solid;
 }
+
 
 .wide-image {
     width: 1000px;
@@ -45,24 +52,17 @@ body {
 }
 
 .container {
+    padding: 5px;
     width: 1000px;
 }
 
 .container img {
+    padding:2px;
     width: 250px;
     height: 250px;
     float: left;
 }
 
-  
-.links ul li {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    text-align: center;
-    border-right: solid;
-    list-style-type: none;
-}
 
 .contact {
     border:solid
