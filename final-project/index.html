@@ -14,12 +14,16 @@
             src="images/logo.png"
             id="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Contact</a></li>
             </ul>
+            <form action="index.html" method="post">
+                <label for="search"></label>
+                <input id="search" type="text" name="fullname" placeholder="Search">
+              </form>
         </nav>
     </header>
         <section>
@@ -86,6 +90,22 @@
 
         <section>
         <h2>Sned us a message</h2>
+        <h3>Full Name</h3>
+        <form action="index.html" method="post">
+            <label for="fullname"></label>
+            <input id="fullname" type="text">
+          </form>
+          <h3>Email</h3>
+          <form action="index.html" method="post">
+            <label for="email"></label>
+            <input id="email" type="email">
+          </form>
+          <h3>Message</h3>
+          <form action="index.html" method="post">
+            <label for="message"></label>
+            <textarea id="message"></textarea>
+            </form>
+            <input type="button" value="Send">
     </section>
 
         <section>
@@ -97,7 +117,7 @@
             
         </section>
         <footer>
-            <p>&copy; Copyright Three Star Media 2023>
+            <p>&copy; Copyright Three Star Media 2023
             <p>All images are taken from Unsplash</p>
         </footer>
 </body>
