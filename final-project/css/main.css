@@ -1,4 +1,55 @@
+html {
+    font-family:sans-serif;
+}
+
+nav img {
+    width: 130px;
+}
+
+nav {
+    background-color: rgb(60, 60, 60);
+}
+
+.home {
+    color:black;
+}
+
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: orange;
+}
+
+.wrapper {
+    margin: auto;
+    background-color: rgb(255, 222, 160);
+
+}
+
+.welcome img {
+    height: 615px;
+}
+
+
+.aboutus {
+    background-color: rgb(255, 222, 160);
+}
+
+.aboutus img {
+    height: 300px;
+}
+
+.aboutus h2 {
+    font-size: 35px;
+}
+
+
+iframe {
+    height: 400px;
+    width: 700px;
+}
+
 footer {
-    background-color:black;
+    background-color:rgb(60, 60, 60);
     color:orange
 }
