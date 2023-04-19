@@ -2,6 +2,11 @@ html {
     font-family:sans-serif;
 }
 
+.home {
+    background-color:orange
+    color: black
+}
+
 nav img {
     width: 130px;
 }
@@ -10,9 +15,6 @@ nav {
     background-color: rgb(60, 60, 60);
 }
 
-.home {
-    color:black;
-}
 
 li a {
     list-style-type: none;
@@ -22,12 +24,15 @@ li a {
 
 .wrapper {
     margin: auto;
+    max-width: 1200px;
+    padding: 15px;
     background-color: rgb(255, 222, 160);
 
 }
 
 .welcome img {
     height: 615px;
+    
 }
 
 
@@ -43,6 +48,33 @@ li a {
     font-size: 35px;
 }
 
+.digital {
+    background-color: rgb(255, 222, 160);
+}
+
+.marketing {
+    background-color: rgb(255, 222, 160);
+}
+
+.videoprod {
+    background-color: rgb(255, 222, 160);
+}
+
+.webdev {
+    background-color: rgb(255, 222, 160);
+}
+
+.print {
+    background-color: rgb(255, 222, 160);
+}
+
+.john {
+    background-color: rgb(255, 222, 160);
+}
+
+.bob {
+    background-color: rgb(255, 222, 160);
+}
 
 iframe {
     height: 400px;
